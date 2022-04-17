@@ -9,8 +9,11 @@ Discord Activities With None SlashCommand
 1. Install dependency
 `npm i`  
 3. Build application
-`npm build`  
+`npm run build`  
 4. Set token
 `export TOKEN=your token`
 5. Start application
-`npm start`
+`npm run start`
+
+## Or invite bot
+https://discord.com/oauth2/authorize?client_id=965070422435569706&permissions=1050624&scope=bot
