@@ -1,7 +1,7 @@
 
-# Activities
-Discord Activities without SlashCommand 
-<img src="https://media.discordapp.net/attachments/965094178705006654/965103180218237038/Hnet-image.gif" height="200px"></img>
+# Activities  
+Discord Activities without SlashCommand   
+<img src="https://media.discordapp.net/attachments/965094178705006654/965103180218237038/Hnet-image.gif" height="400px"></img>  
 
 ## How to Build?
 0. Clone repository
