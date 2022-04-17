@@ -41,12 +41,10 @@ client.on('interactionCreate', async I => {
   const [select] = I.values
   if (!select) return I.reply({ content: 'Select activitie!', ephemeral: true })
 
-  const guild = client.guilds.cache.get(I.guildId)
-  const member = guild?.members.cache.get(I.member?.user.id)
-  const voiceChannel = await member?.voice.channel
+  const voiceChannel = await I.guild?.members.cache.get(I.member.user.id)?.    voice.channelId
   if (!voiceChannel) return I.reply({ content: 'You are not in voice channel', ephemeral: true })
 
-  const { code } = await together.createTogetherCode(voiceChannel.id, select)
+  const { code } = await together.createTogetherCode(voiceChannel, select)
   const embed = new MessageEmbed()
     .setTitle('Activites!')
     .setDescription(code)
