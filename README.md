@@ -1,6 +1,6 @@
 
 # Activities
-Discord Activities With None SlashCommand  
+Discord Activities without SlashCommand 
 <img src="https://media.discordapp.net/attachments/965094178705006654/965103180218237038/Hnet-image.gif" height="200px"></img>
 
 ## How to Build?
