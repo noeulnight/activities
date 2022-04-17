@@ -2,7 +2,7 @@ import Discord, { MessageActionRow, MessageEmbed, MessageSelectMenu } from 'disc
 import { DiscordTogether } from 'discord-together'
 
 const token = process.env.TOKEN || ''
-const client = new Discord.Client({ intents: [Discord.Intents.FLAGS.GUILDS, Discord.Intents.FLAGS.GUILD_MESSAGES] })
+const client = new Discord.Client({ intents: [Discord.Intents.FLAGS.GUILDS, Discord.Intents.FLAGS.GUILD_MESSAGES, Discord.Intents.FLAGS.GUILD_VOICE_STATES })
 const together = new DiscordTogether(client)
 
 client.on('ready', () => {
