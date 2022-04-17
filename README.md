@@ -1,9 +1,9 @@
 
 # Activities
 Discord Activities With None SlashCommand  
-<img src="https://images-ext-1.discordapp.net/external/OTbNhdVhlu8eBXvyuf9neLuCZZW0DPRAPQ6YqSs50bo/https/media.discordapp.net/attachments/906450321444831233/965075047612035162/image.png" height="200px"></img>
+<img src="https://cdn.discordapp.com/attachments/965094178705006654/965102091662155787/Hnet-image.gif" height="200px"></img>
 
-## How to use?
+## How to Build?
 0. Clone repository
 `git clone https://github.com/noeulnight/activities`
 1. Install dependency
@@ -15,5 +15,8 @@ Discord Activities With None SlashCommand
 5. Start application
 `npm run start`
 
-## Or invite bot
+## Invite bot
 https://discord.com/oauth2/authorize?client_id=965070422435569706&permissions=1050624&scope=bot
+
+## How to use
+`panel`
